@@ -2,5 +2,10 @@
   "devDependencies": {
     "prettier": "^2.7.1",
     "prettier-plugin-solidity": "^1.0.0"
+  },
+  "scripts": {
+    "migrate": "truffle migrate --reset --compile-all --network development",
+    "test": "truffle test"
+
   }
 }
